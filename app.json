@@ -9,7 +9,8 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.inland-his-expo"
     },
     "android": {
       "adaptiveIcon": {
@@ -36,6 +37,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "fonts": [
+      "assets/fonts/SUITE-Regular.otf",
+      "assets/fonts/SUITE-Medium.otf",
+      "assets/fonts/SUITE-SemiBold.otf",
+      "assets/fonts/SUITE-Bold.otf"
+    ]
   }
 }

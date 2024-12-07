@@ -1,13 +1,12 @@
 import { View, Text, StyleSheet } from 'react-native';
-import { TabHeader } from '../../components/TabHeader';
+import { TabHeader } from '@/components/TabHeader';
 
-export default function HomeScreen() {
-  console.log('HomeScreen rendering');  // 디버깅용 로그
+export default function ProfileScreen() {
   return (
     <View style={styles.container}>
-      <TabHeader title="홈"/>
+      <TabHeader title="프로필" />
       <View style={styles.content}>
-        <Text>Home Screen</Text>
+        <Text>Profile Screen</Text>
       </View>
     </View>
   );
@@ -16,12 +15,11 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000',
+    backgroundColor: '#FFFFFF',
   },
   content: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#FFFFFF',
   },
-});
+}); 
